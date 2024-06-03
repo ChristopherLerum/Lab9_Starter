@@ -47,6 +47,16 @@
       width: 122px;
     }
   </style>
+  
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  <script>
+    window.TrackJS && TrackJS.install({ 
+      token: "fef8dbc3ee5f4fd4b97cac3d39bd6d9f"
+      // for more configuration options, see https://docs.trackjs.com
+    });
+  </script>
+  
+  <script src="./main.js" type="module"></script>
 </head>
 
 <body>
@@ -87,6 +97,7 @@
     </section>
   </main>
 
+  <!--
   <script>
     let form = document.querySelector('form');
     form.addEventListener('submit', e => {
@@ -102,7 +113,8 @@
 
     // Start your code here
     // You may move this JS to another file if you wish
-  </script>
+  </script> 
+  -->
 </body>
 
 </html>
